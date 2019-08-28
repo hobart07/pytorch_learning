@@ -1,3 +1,9 @@
+'''
+pytorch:torch的基本操作
+
+@author: hobart
+'''
+
 import torch
 import tensorflow as tf
 import numpy as np
