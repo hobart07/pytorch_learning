@@ -167,7 +167,7 @@ def numpy_and_torch():
     print(numpy_array_1, numpy_array_1.dtype)
     print(numpy_array_2, numpy_array_2.dtype)
     #如果是在GPU上运行
-    #numpy_array_gpu = pytorch_tensor_1.cpu.numpy()
+    #numpy_array_gpu = pytorch_tensor_1.cuda().numpy()
 
 def init_parameter(a = True, b = True):
     # torch的常数初始化
